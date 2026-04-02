@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Playwright Test Results & Reports
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Debugging & Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# VS Code Workspace files (Opsional, kalau nggak mau file workspace ikut ke-upload)
+*.code-workspace
+.vscode/
