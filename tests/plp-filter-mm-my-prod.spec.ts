@@ -49,22 +49,22 @@ const styleTranslationMap: Record<string, string> = {
 // 3. TARGET URL LIST (DIRECT NAVIGATION STAGING MM-MY)
 // ==========================================
 const targetPages = [
-    { name: 'Commercial', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/commercial/' },
-    { name: 'Bathtubs', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/bathtubs/' },
-    { name: 'Bath & Showers', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/bath-and-showers/' },
-    { name: 'Basin Faucets', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/basin-faucets/' },
-    { name: 'Spalets', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/spalets/' },
-    { name: 'Toilets', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/toilets/' },
-    { name: 'Accessories', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/accessories/' },
-    { name: 'Vanities', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/vanities/' },
-    { name: 'Wash Basins', url: 'https://mm.47.130.209.149.nip.io/my/bathrooms/wash-basins/' }
+    { name: 'Commercial', url: 'https://www.americanstandard.com.mm/my/bathrooms/commercial/' },
+    { name: 'Bathtubs', url: 'https://www.americanstandard.com.mm/my/bathrooms/bathtubs/' },
+    { name: 'Bath & Showers', url: 'https://www.americanstandard.com.mm/my/bathrooms/bath-showers/' },
+    { name: 'Basin Faucets', url: 'https://www.americanstandard.com.mm/my/bathrooms/basin-faucets/' },
+    { name: 'Spalets', url: 'https://www.americanstandard.com.mm/my/bathrooms/spalets/' },
+    { name: 'Toilets', url: 'https://www.americanstandard.com.mm/my/bathrooms/toilets/' },
+    { name: 'Accessories', url: 'https://www.americanstandard.com.mm/my/bathrooms/accessories/' },
+    { name: 'Vanities', url: 'https://www.americanstandard.com.mm/my/bathrooms/vanities/' },
+    { name: 'Wash Basins', url: 'https://www.americanstandard.com.mm/my/bathrooms/wash-basins/' }
 ];
 
 // ==========================================
 // 4. HELPER FUNCTION: AGGRESSIVE COOKIE DISMISSAL (STAGING)
 // ==========================================
 async function dismissCookies(page: Page) {
-    const cookieButton = page.getByRole('button', { name: /Accept|Got it|Agree|Allow|လက်ခံပါ/i }).first();
+    const cookieButton = page.getByRole('button', { name: /Accept|Got it|Agree|Allow|ကွတ်ကီးအားလုံးကို လက်ခံမည်/i }).first();
     try {
         // Set timeout short (1s) so it doesn't waste time inside the loop if the banner isn't there
         await cookieButton.waitFor({ state: 'visible', timeout: 1000 });
