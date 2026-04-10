@@ -50,7 +50,7 @@ const styleTranslationMap: Record<string, string> = {
 const targetPages = [
     { name: 'Commercial', url: 'https://www.americanstandard.co.th/bathrooms/commercial/' },
     { name: 'Bathtubs', url: 'https://www.americanstandard.co.th/bathrooms/bathtubs/' },
-    { name: 'Bath & Showers', url: 'https://www.americanstandard.co.th/bathrooms/bath-showers/' },
+    { name: 'Bath & Showers', url: 'https://www.americanstandard.co.th/bathrooms/bath-and-showers' },
     { name: 'Basin Faucets', url: 'https://www.americanstandard.co.th/bathrooms/basin-faucets/' },
     { name: 'Spalets', url: 'https://www.americanstandard.co.th/bathrooms/spalets/' },
     { name: 'Toilets', url: 'https://www.americanstandard.co.th/bathrooms/toilets/' },
