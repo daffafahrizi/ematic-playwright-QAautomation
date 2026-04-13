@@ -35,38 +35,37 @@ const collectionToStyleMap: Record<string, string> = {
 };
 
 // ==========================================
-// 2. TRANSLATION MAP (ENG -> MM-MY)
+// 2. TRANSLATION MAP (ENG -> TH-TH)
 // ==========================================
-// ⚠️ UPDATE THIS: If the UI uses Burmese script, replace the values on the right with the Burmese translations.
+// ✅ UPDATED: Sesuai dengan kamus lokalisasi Thailand dari Dev
 const styleTranslationMap: Record<string, string> = {
-    "Contemporary": "Contemporary", // Change to Burmese if translated in UI
-    "Transitional": "Transitional", // Change to Burmese if translated in UI
-    "Classic": "Classic",           // Change to Burmese if translated in UI
-    "Others": "Others"              // Change to Burmese if translated in UI
+    "Contemporary": "คอลเล็คชั่นห้องน้ำแบบร่วมสมัย",
+    "Transitional": "คอลเล็คชั่นห้องน้ำแบบผสมผสานความดั้งเดิมและร่วมสมัย",
+    "Classic": "คอลเล็คชั่นห้องน้ำแบบคลาสสิก",
+    "Others": "Others" // Biarkan "Others" kecuali ada terjemahan resminya (misal "อื่นๆ")
 };
 
 // ==========================================
-// 3. TARGET URL LIST (DIRECT NAVIGATION STAGING MM-MY)
+// 3. TARGET URL LIST (DIRECT NAVIGATION STAGING TH-TH)
 // ==========================================
 const targetPages = [
-    { name: 'Commercial', url: 'https://www.americanstandard.com.mm/my/bathrooms/commercial/' },
-    { name: 'Bathtubs', url: 'https://www.americanstandard.com.mm/my/bathrooms/bathtubs/' },
-    { name: 'Bath & Showers', url: 'https://www.americanstandard.com.mm/my/bathrooms/bath-showers/' },
-    { name: 'Basin Faucets', url: 'https://www.americanstandard.com.mm/my/bathrooms/basin-faucets/' },
-    { name: 'Spalets', url: 'https://www.americanstandard.com.mm/my/bathrooms/spalets/' },
-    { name: 'Toilets', url: 'https://www.americanstandard.com.mm/my/bathrooms/toilets/' },
-    { name: 'Accessories', url: 'https://www.americanstandard.com.mm/my/bathrooms/accessories/' },
-    { name: 'Vanities', url: 'https://www.americanstandard.com.mm/my/bathrooms/vanities/' },
-    { name: 'Wash Basins', url: 'https://www.americanstandard.com.mm/my/bathrooms/wash-basins/' }
+    { name: 'Commercial', url: 'https://www.americanstandard.co.th/th/bathrooms/commercial' },
+    { name: 'Bathtubs', url: 'https://www.americanstandard.co.th/th/bathrooms/bathtubs' },
+    { name: 'Bath & Showers', url: 'https://www.americanstandard.co.th/th/bathrooms/bath-and-showers' },
+    { name: 'Basin Faucets', url: 'https://www.americanstandard.co.th/th/bathrooms/basin-faucets' },
+    { name: 'Spalets', url: 'https://www.americanstandard.co.th/th/bathrooms/spalets' },
+    { name: 'Toilets', url: 'https://www.americanstandard.co.th/th/bathrooms/toilets' },
+    { name: 'Accessories', url: 'https://www.americanstandard.co.th/th/bathrooms/accessories' },
+    { name: 'Vanities', url: 'https://www.americanstandard.co.th/th/bathrooms/vanities' },
+    { name: 'Wash Basins', url: 'https://www.americanstandard.co.th/th/bathrooms/wash-basins' }
 ];
 
 // ==========================================
 // 4. HELPER FUNCTION: AGGRESSIVE COOKIE DISMISSAL (STAGING)
 // ==========================================
 async function dismissCookies(page: Page) {
-    const cookieButton = page.getByRole('button', { name: /Accept|Got it|Agree|Allow|ကွတ်ကီးအားလုံးကို လက်ခံမည်/i }).first();
+    const cookieButton = page.getByRole('button', { name: /Accept|Got it|Agree|Allow|ยอมรับ/i }).first();
     try {
-        // Set timeout short (1s) so it doesn't waste time inside the loop if the banner isn't there
         await cookieButton.waitFor({ state: 'visible', timeout: 1000 });
         await cookieButton.click();
     } catch (e) {
@@ -77,9 +76,8 @@ async function dismissCookies(page: Page) {
 // ==========================================
 // 5. TEST SUITE (DIRECT URL UI READER)
 // ==========================================
-test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', () => {
+test.describe('PLP Filter Dependencies - Direct URL (Thailand th-th Staging)', () => {
 
-    // Extend timeout to 2 minutes to handle lengthy loops without crashing
     test.setTimeout(120000);
     // Crucial for Staging environments that might have invalid SSL certificates
     test.use({ ignoreHTTPSErrors: true });
@@ -88,7 +86,6 @@ test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', ()
         
         test(`Validate dynamically available Styles for: ${target.name}`, async ({ page }, testInfo) => {
             
-            // Attach target URL to the Playwright HTML Report
             testInfo.annotations.push({ type: 'Target URL', description: target.url });
             
             // ------------------------------------------
@@ -102,11 +99,9 @@ test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', ()
             // ------------------------------------------
             // UI DETECTION: Check for Style & Collections filters
             // ------------------------------------------
-            // ⚠️ UPDATE THIS: If the headings are translated to Burmese, add the Burmese words to this regex (e.g., /Style|စတိုင်/i)
-            const styleWrapper = page.locator('.wrapper').filter({ has: page.locator('h3', { hasText: /Style/i }) });
-            const collectionsWrapper = page.locator('.wrapper').filter({ has: page.locator('h3', { hasText: /Collections/i }) });
+            const styleWrapper = page.locator('.wrapper').filter({ has: page.locator('h3', { hasText: /Style|สไตล์/i }) });
+            const collectionsWrapper = page.locator('.wrapper').filter({ has: page.locator('h3', { hasText: /Collections|คอลเลกชัน/i }) });
 
-            // Skip the test gracefully if the page lacks required filter blocks
             if (await styleWrapper.count() === 0 || await collectionsWrapper.count() === 0) {
                 test.skip(true, `Category "${target.name}" does not have Style/Collections filters.\nURL: ${target.url}`);
                 return;
@@ -122,7 +117,6 @@ test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', ()
                 
                 const currentStyleLabel = styleLabels.nth(i);
 
-                // Bypass hidden/invisible elements in the DOM
                 const isVisible = await currentStyleLabel.isVisible();
                 if (!isVisible) {
                     continue; 
@@ -133,21 +127,19 @@ test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', ()
 
                 if (!styleNameUI) continue;
 
-                // Normalize "Other" or "Others" variations (Add Burmese word for "Other" here if needed)
                 const normalizedUI = styleNameUI.toLowerCase();
-                if (normalizedUI === 'other' || normalizedUI === 'others') {
+                if (normalizedUI === 'other' || normalizedUI === 'others' || normalizedUI === 'อื่นๆ') {
                     styleNameUI = 'Others';
                 }
 
                 await test.step(`Check Collections for available Style: "${styleNameUI}"`, async () => {
                     
                     // 1. CLICK STYLE
-                    await dismissCookies(page); // Clear spammy staging cookies
+                    await dismissCookies(page);
                     await currentStyleLabel.click();
-                    // Give the UI 3.5 seconds to finish its loading/filtering animation
                     await page.waitForTimeout(3500); 
 
-                    // 2. CAPTURE ACTIVE URL (For debugging purposes)
+                    // 2. CAPTURE ACTIVE URL
                     const currentUrl = page.url();
 
                     // 3. READ RENDERED COLLECTIONS
@@ -155,7 +147,7 @@ test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', ()
                     const actualCollectionsRaw = await visibleCollectionElements.allTextContents();
                     const actualCollections = actualCollectionsRaw.map(text => text.trim());
 
-                    // 4. VALIDATE AGAINST DICTIONARY (Using Soft Assertions)
+                    // 4. VALIDATE AGAINST DICTIONARY
                     for (const visibleCollection of actualCollections) {
                         
                         let expectedStyleEn = collectionToStyleMap[visibleCollection];
@@ -164,7 +156,6 @@ test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', ()
                             expectedStyleEn = "Others";
                         }
 
-                        // Assertion 1: Ensure collection exists in QA Master Data
                         expect.soft(
                             expectedStyleEn, 
                             `[Data Missing] Collection "${visibleCollection}" is missing from the QA master dictionary! \n🔗 Error URL: ${currentUrl}`
@@ -172,17 +163,15 @@ test.describe('PLP Filter Dependencies - Direct URL (Myanmar mm-my Staging)', ()
 
                         const expectedStyleUI = styleTranslationMap[expectedStyleEn];
 
-                        // Assertion 2: Ensure collection belongs to the currently clicked Style
                         expect.soft(
                             expectedStyleUI,
                             `[Bug Mismatch!] Collection "${visibleCollection}" (expected: ${expectedStyleUI}) incorrectly appeared under the "${styleNameUI}" filter! \n🔗 Error URL: ${currentUrl}`
                         ).toBe(styleNameUI);
                     }
 
-                    // 5. UN-CLICK STYLE (Reset filter state for the next loop iteration)
-                    await dismissCookies(page); // Clear spammy staging cookies again
+                    // 5. UN-CLICK STYLE
+                    await dismissCookies(page);
                     await currentStyleLabel.click();
-                    // Give the UI 3.5 seconds to reset before clicking the next filter
                     await page.waitForTimeout(3500); 
                 });
             }
