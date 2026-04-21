@@ -1,0 +1,536 @@
+{
+  "AU": [
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.com.au/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection/"
+    },
+    {
+      "name": "cygnet",
+      "url": "https://www.americanstandard.com.au/bathroom-collections/contemporary-bathroom-collections/cygnet-collection/"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.com.au/bathroom-collections/contemporary-bathroom-collections/easyset-collection/"
+    },
+    {
+      "name": "heron",
+      "url": "https://www.americanstandard.com.au/bathroom-collections/contemporary-bathroom-collections/heron-collection/"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.com.au/bathroom-collections/contemporary-bathroom-collections/loven-collection/"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.com.au/bathroom-collections/contemporary-bathroom-collections/signature-collection/"
+    }
+  ],
+  "ID": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection/"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection/"
+    },
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/transitional-bathroom-collections/cadet-collection/"
+    },
+    {
+      "name": "compact codie",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/transitional-bathroom-collections/compact-codie-collection/"
+    },
+    {
+      "name": "concept nuovo",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/transitional-bathroom-collections/concept-nuovo-collection/"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/easyflo-collection/"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/easyset-collection/"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/flexio-collection/"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/loven-collection/"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/signature-collection/"
+    },
+    {
+      "name": "winston",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/transitional-bathroom-collections/winston-collection/"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.co.id/bathroom-collections/contemporary-bathroom-collections/wizflo-collection/"
+    }
+  ],
+  "ID-ID": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection/"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection/"
+    },
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/transitional-bathroom-collections/cadet-collection/"
+    },
+    {
+      "name": "concept nuovo",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/transitional-bathroom-collections/concept-nuovo-collection/"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/easyflo-collection/"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/easyset-collection/"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/flexio-collection/"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/classic-bathroom-collections/kastello-collection/"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/loven-collection/"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/signature-collection/"
+    },
+    {
+      "name": "winston",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/transitional-bathroom-collections/winston-collection/"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.co.id/id/bathroom-collections/contemporary-bathroom-collections/wizflo-collection/"
+    }
+  ],
+  "MY": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection/"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection/"
+    },
+    {
+      "name": "compact codie",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/transitional-bathroom-collections/compact-codie-collection/"
+    },
+    {
+      "name": "concept",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/transitional-bathroom-collections/concept-collection/"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/easyflo-collection/"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/easyset-collection/"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/flexio-collection/"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/classic-bathroom-collections/kastello-collection/"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/loven-collection/"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/signature-collection/"
+    },
+    {
+      "name": "winston",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/transitional-bathroom-collections/winston-collection/"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.com.my/bathroom-collections/contemporary-bathroom-collections/wizflo-collection/"
+    }
+  ],
+  "MM": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection/"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection/"
+    },
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/transitional-bathroom-collections/cadet-collection/"
+    },
+    {
+      "name": "concept nuovo",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/transitional-bathroom-collections/concept-nuovo-collection/"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/easyflo-collection/"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/easyset-collection/"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/flexio-collection/"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/classic-bathroom-collections/kastello-collection/"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/loven-collection/"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/signature-collection/"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.com.mm/bathroom-collections/contemporary-bathroom-collections/wizflo-collection/"
+    }
+  ],
+  "MM-MY": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection/"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection/"
+    },
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/transitional-bathroom-collections/cadet-collection/"
+    },
+    {
+      "name": "compact codie",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/transitional-bathroom-collections/compact-codie-collection/"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/easyflo-collection/"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/easyset-collection/"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/flexio-collection/"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/classic-bathroom-collections/kastello-collection/"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/loven-collection/"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/signature-collection/"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.com.mm/my/bathroom-collections/contemporary-bathroom-collections/wizflo-collection/"
+    }
+  ],
+  "NZ": [
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.co.nz/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection/"
+    },
+    {
+      "name": "cygnet",
+      "url": "https://www.americanstandard.co.nz/bathroom-collections/contemporary-bathroom-collections/cygnet-collection/"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.co.nz/bathroom-collections/modern-bathroom-collections/easyset-collection"
+    },
+    {
+      "name": "heron",
+      "url": "https://www.americanstandard.co.nz/bathroom-collections/contemporary-bathroom-collections/heron-collection"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.co.nz/bathroom-collections/contemporary-bathroom-collections/loven-collection/"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.co.nz/bathroom-collections/contemporary-bathroom-collections/signature-collection/"
+    }
+  ],
+  "PH": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/easyflo-collection"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/easyset-collection"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/flexio-collection"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.ph/bathroom-collections/classic-bathroom-collections/kastello-collection"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/loven-collection"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/signature-collection"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.ph/bathroom-collections/contemporary-bathroom-collections/wizflo-collection"
+    }
+  ],
+  "SG": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection"
+    },
+    {
+      "name": "concept nuovo",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/transitional-bathroom-collections/concept-nuovo-collection"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/easyflo-collection"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/easyset-collection"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/flexio-collection"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/classic-bathroom-collections/kastello-collection"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/loven-collection"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/signature-collection"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.com.sg/bathroom-collections/contemporary-bathroom-collections/wizflo-collection"
+    }
+  ],
+  "TH": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection"
+    },
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/transitional-bathroom-collections/cadet-collection"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/easyflo-collection"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/easyset-collection"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/flexio-collection"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/classic-bathroom-collections/kastello-collection"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/loven-collection"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/signature-collection"
+    },
+    {
+      "name": "winston",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/transitional-bathroom-collections/winston-collection"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.co.th/bathroom-collections/contemporary-bathroom-collections/wizflo-collection"
+    }
+  ],
+  "TH-TH": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection"
+    },
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/transitional-bathroom-collections/cadet-collection"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/easyflo-collection"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/easyset-collection"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/flexio-collection"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/classic-bathroom-collections/kastello-collection"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/loven-collection"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/signature-collection"
+    },
+    {
+      "name": "winston",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/transitional-bathroom-collections/winston-collection"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.co.th/th/bathroom-collections/contemporary-bathroom-collections/wizflo-collection"
+    }
+  ],
+  "VN": [
+    {
+      "name": "acacia evolution",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/acacia-evolution-collection"
+    },
+    {
+      "name": "acacia supasleek",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/acacia-supasleek-collection"
+    },
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/transitional-bathroom-collections/cadet-collection"
+    },
+    {
+      "name": "compact codie",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/transitional-bathroom-collections/compact-codie-collection"
+    },
+    {
+      "name": "easyflo",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/easyflo-collection"
+    },
+    {
+      "name": "easyset",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/easyset-collection/"
+    },
+    {
+      "name": "flexio",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/flexio-collection"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/classic-bathroom-collections/kastello-collection"
+    },
+    {
+      "name": "loven",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/loven-collection"
+    },
+    {
+      "name": "signature",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/signature-collection"
+    },
+    {
+      "name": "winston",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/transitional-bathroom-collections/winston-collection"
+    },
+    {
+      "name": "wizflo",
+      "url": "https://www.americanstandard.com.vn/bathroom-collections/contemporary-bathroom-collections/wizflo-collection"
+    }
+  ],
+  "VN-VI": [
+    {
+      "name": "cadet",
+      "url": "https://www.americanstandard.com.vn/vi/bathroom-collections/transitional-bathroom-collections/cadet-collection"
+    },
+    {
+      "name": "compact codie",
+      "url": "https://www.americanstandard.com.vn/vi/bathroom-collections/transitional-bathroom-collections/compact-codie-collection"
+    },
+    {
+      "name": "kastello",
+      "url": "https://www.americanstandard.com.vn/vi/bathroom-collections/classic-bathroom-collections/kastello-collection"
+    },
+    {
+      "name": "winston",
+      "url": "https://www.americanstandard.com.vn/vi/bathroom-collections/transitional-bathroom-collections/winston-collection"
+    }
+  ]
+}
