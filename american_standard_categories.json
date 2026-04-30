@@ -1,0 +1,336 @@
+{
+    "AU": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.com.au/bathroom/toilets-category"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.com.au/bathroom/bath-showers-category"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.com.au/bathroom/basin-faucet-category"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.com.au/bathroom/spalets-category"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.com.au/bathroom/wash-basins-category"
+        }
+    ],
+    "ID": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.co.id/bathroom/toilets-category/"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.co.id/bathroom/bath-showers-category/"
+        },
+        {
+            "category_name": "Bathtubs",
+            "url": "https://www.americanstandard.co.id/bathroom/bathtubs-category/"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.co.id/bathroom/wash-basins-category/"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.co.id/bathroom/spalets-category/"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.co.id/bathroom/basin-faucets-category/"
+        }
+    ],
+    "ID-ID": [
+        {
+            "category_name": "Toilet",
+            "url": "https://www.americanstandard.co.id/id/bathroom/toilets-category/"
+        },
+        {
+            "category_name": "Keran Bath & Shower",
+            "url": "https://www.americanstandard.co.id/id/bathroom/bath-showers-category/"
+        },
+        {
+            "category_name": "Bathtub",
+            "url": "https://www.americanstandard.co.id/id/bathroom/bathtubs-category/"
+        },
+        {
+            "category_name": "Keran Wastafel",
+            "url": "https://www.americanstandard.co.id/id/bathroom/basin-faucets-category/"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.co.id/id/bathroom/spalets-category/"
+        },
+        {
+            "category_name": "Wastafel",
+            "url": "https://www.americanstandard.co.id/id/bathroom/wash-basins-category/"
+        }
+    ],
+    "MY": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.com.my/bathroom/toilets-category/"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.com.my/bathroom/basin-faucet-category/"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.com.my/bathroom/wash-basins-category/"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.com.my/bathroom/spalets-category/"
+        },
+        {
+            "category_name": "Commercial",
+            "url": "https://www.americanstandard.com.my/bathroom/commercial-category/"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.com.my/bathroom/bath-showers-category/"
+        }
+    ],
+    "MM": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.com.mm/bathroom/toilets-category"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.com.mm/bathroom/wash-basins-category"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.com.mm/bathroom/basin-faucets-category"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.com.mm/bathroom/spalets-category"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.com.mm/bathroom/bath-showers-category"
+        }
+    ],
+    "MM-MY": [
+        {
+            "category_name": "ဘိုထိုင်အိမ်သာအိုး",
+            "url": "https://www.americanstandard.com.mm/my/bathroom/toilets-category"
+        },
+        {
+            "category_name": "လက်ဆေးဇလုံ/ဘေစင်",
+            "url": "https://www.americanstandard.com.mm/my/bathroom/wash-basins-category"
+        },
+        {
+            "category_name": "ရေဘုံဘိုင်ခေါင်း/ရေခေါင်း",
+            "url": "https://www.americanstandard.com.mm/my/bathroom/basin-faucets-category"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.com.mm/my/bathroom/spalets-category/"
+        },
+        {
+            "category_name": "ရေပန်းများ",
+            "url": "https://www.americanstandard.com.mm/my/bathroom/bath-showers-category"
+        }
+    ],
+    "NZ": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.co.nz/bathroom/toilets-category/"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.co.nz/bathroom/basin-faucets-category/"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.co.nz/bathroom/spalets-category/"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.co.nz/bathroom/bath-showers-category/"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.co.nz/bathroom/wash-basins-category/"
+        }
+    ],
+    "PH": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.ph/bathroom/toilets-category"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.ph/bathroom/wash-basins-category"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.ph/bathroom/basin-faucet-category"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.ph/bathroom/spalets-category"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.ph/bathroom/bath-showers-category"
+        },
+        {
+            "category_name": "Bathtubs",
+            "url": "https://www.americanstandard.ph/bathroom/bathtubs-category"
+        }
+    ],
+    "SG": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.com.sg/bathroom/toilets-category"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.com.sg/bathroom/wash-basins-category"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.com.sg/bathroom/basin-faucet-category"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.com.sg/bathroom/spalets-category"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.com.sg/bathroom/bath-showers-category"
+        }
+    ],
+    "TH": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.co.th/bathroom/toilets-category/"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.co.th/bathroom/spalets-category/"
+        },
+        {
+            "category_name": "Commercial",
+            "url": "https://www.americanstandard.co.th/bathroom/commercial-category"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.co.th/bathroom/bath-showers-category/"
+        },
+        {
+            "category_name": "Bathtubs",
+            "url": "https://www.americanstandard.co.th/bathroom/bathtubs-category/"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.co.th/bathroom/wash-basins-category/"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.co.th/bathroom/basin-faucet-category/"
+        }
+    ],
+    "TH-TH": [
+        {
+            "category_name": "โถสุขภัณฑ์",
+            "url": "https://www.americanstandard.co.th/th/bathroom/toilets-category"
+        },
+        {
+            "category_name": "โถสุขภัณฑ์อัตโนมัติและฝารองนั่งอเนกประสงค์",
+            "url": "https://www.americanstandard.co.th/th/bathroom/spalets-category"
+        },
+        {
+            "category_name": "ผลิตภัณฑ์สำหรับอาคารเชิงพาณิชย์",
+            "url": "https://www.americanstandard.co.th/th/bathroom/commercial-category"
+        },
+        {
+            "category_name": "ก๊อกอาบน้ำและหัวฝักบัว",
+            "url": "https://www.americanstandard.co.th/th/bathroom/bath-showers-category"
+        },
+        {
+            "category_name": "อ่างอาบน้ำ",
+            "url": "https://www.americanstandard.co.th/th/bathroom/bathtubs-category"
+        },
+        {
+            "category_name": "อ่างล้างหน้า",
+            "url": "https://www.americanstandard.co.th/th/bathroom/wash-basins-category/"
+        },
+        {
+            "category_name": "ก๊อกอ่างล้างหน้า",
+            "url": "https://www.americanstandard.co.th/th/bathroom/basin-faucet-category"
+        }
+    ],
+    "VN": [
+        {
+            "category_name": "Toilets",
+            "url": "https://www.americanstandard.com.vn/bathroom/toilets-category"
+        },
+        {
+            "category_name": "Basin Faucets",
+            "url": "https://www.americanstandard.com.vn/bathroom/basin-faucet-category"
+        },
+        {
+            "category_name": "Bathtubs",
+            "url": "https://www.americanstandard.com.vn/bathroom/bathtubs-category"
+        },
+        {
+            "category_name": "Bath & Showers",
+            "url": "https://www.americanstandard.com.vn/bathroom/bath-showers-category"
+        },
+        {
+            "category_name": "Commercial",
+            "url": "https://www.americanstandard.com.vn/bathroom/commercial-category"
+        },
+        {
+            "category_name": "Wash Basins",
+            "url": "https://www.americanstandard.com.vn/bathroom/wash-basins-category"
+        },
+        {
+            "category_name": "Spalets",
+            "url": "https://www.americanstandard.com.vn/bathroom/spalets-category"
+        }
+    ],
+    "VN-VI": [
+        {
+            "category_name": "Bộ Cầu",
+            "url": "https://www.americanstandard.com.vn/vi/bathroom/toilets-category"
+        },
+        {
+            "category_name": "Vòi Chậu",
+            "url": "https://www.americanstandard.com.vn/vi/bathroom/basin-faucets-category"
+        },
+        {
+            "category_name": "Bồn Tắm",
+            "url": "https://www.americanstandard.com.vn/vi/bathroom/bathtubs-category"
+        },
+        {
+            "category_name": "Vòi Sen Tắm",
+            "url": "https://www.americanstandard.com.vn/vi/bathroom/bath-showers-category"
+        },
+        {
+            "category_name": "Công Cộng",
+            "url": "https://www.americanstandard.com.vn/vi/bathroom/commercial-category"
+        },
+        {
+            "category_name": "Chậu Rửa",
+            "url": "https://www.americanstandard.com.vn/vi/bathroom/wash-basins-category"
+        },
+        {
+            "category_name": "Bộ Cầu Điện Tử Và Nắp Rửa",
+            "url": "https://www.americanstandard.com.vn/vi/bathroom/spalets-category"
+        }
+    ]
+}
